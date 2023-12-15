@@ -1,0 +1,1 @@
+python3 scripts/convert_checkpoint.py --model_size '7B'
