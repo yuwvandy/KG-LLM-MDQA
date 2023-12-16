@@ -3,7 +3,8 @@ This repository includes the code and demo of [Knowledge Graph Prompting for Mul
 
 
 # Folder Architecture
-* **Data-Collect**: Codes for querying/collecting Documents based on QA datasets from existing literature.
+* **Data-Collect**: Codes for querying/collecting Documents based on QA datasets from existing literature. In addition, if you want to get access to the internally collected real-world document question-answering dataset, please refer paper [PDFTriage: Question Answering over Long, Structured Documents
+](https://arxiv.org/abs/2309.08872) for more details.
 * **DPR**: Codes for training DPR, dense passage retrieval.
 * **MDR**: Codes for training MDR, multi-hop dense passage retrieval.
 * **T5**: Codes for instruction fine-tuning T5 based on reasoning data of HotpotQA and 2WikiMQA, the pre-trained T5 would be used as the agent for intelligent graph traversal.
