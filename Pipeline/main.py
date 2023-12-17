@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
     elif args.retriever == 'KGP-T5':
         retriever = llm_retriever_KG_T5(args.k, args.k_nei, args.port)
-        Gs = pkl.load(open('./dataset/{}/{}.pkl'.format(args.dataset, args.kg), 'rb'))[:args.n_data]
+        Gs = pkl.load(open('./dataset/{}/{}.pkl'.format(args.dataset, args.kg), 'rb'))
         data_idx = [(i, d, Gs[i]) for i, d in enumerate(data)]
         args.run_info = f'{args.retriever}_{args.kg}_{args.k}'
     
