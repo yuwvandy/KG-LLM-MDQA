@@ -12,6 +12,7 @@ This repository includes the code and demo of [Knowledge Graph Prompting for Mul
 * **Pipeline**: Codes for reproducing our KGP-LLM algorithm and other models in the main Table in the paper
 
 All model checkpoints and real datasets are separately stored in the [Dropbox](https://www.dropbox.com/scl/fo/y9ydmvv0bj846klkfdin0/h?rlkey=epyzclz2kbcf2g4iuz0tojlm9&dl=0)!
+Due to limited number of times for the folder to be viewed by readers in a day, here I create another link sharing the folder, feel free to use this [one](https://www.dropbox.com/scl/fo/wmx13nemcmnam3f3ndxzc/h?rlkey=m7cv4ttwvj9ehbc1xu3zf3ulh&dl=0) as well
 
 # Environment Configuration
 ```
