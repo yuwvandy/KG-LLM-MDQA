@@ -5,7 +5,7 @@ This repository includes the code for instruction-fine-tuning LLaMA(2) for enhan
 Please refer instruction [here](https://github.com/Lightning-AI/lit-llama) for accessing pre-trained checkpoints of LLaMA(2). After you have them, please following instruction [here](https://github.com/Lightning-AI/lit-llama/blob/main/howto/download_weights.md) to transform the model weight to the model checkpoint. 
 
 > [!important]  
-Note that we also provide the model checkpoints after the download and process in the [Dropbox](). Please only use it after you obtain the permission [here](https://ai.meta.com/llama/)
+Note that we also provide the model checkpoints after the download and process in the checkpoints.zip in [Dropbox](https://www.dropbox.com/scl/fo/y9ydmvv0bj846klkfdin0/h?rlkey=epyzclz2kbcf2g4iuz0tojlm9&dl=0). Please only use it after you obtain the permission [here](https://ai.meta.com/llama/)
 
 
 
