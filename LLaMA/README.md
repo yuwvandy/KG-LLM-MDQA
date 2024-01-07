@@ -47,8 +47,8 @@ tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
 * For **LLaMA2**:
 ```
 lora_path: Path = Path("out/lora/reason/7B/iter-51199-ckpt.pth"),
-pretrained_path: Path = Path("checkpoints/lit-llama/7B/lit-llama2.pth"),
-tokenizer_path: Path = Path("checkpoints/lit-llama/tokenizer.model"),
+pretrained_path: Path = Path("checkpoints/lit-llama2/7B/lit-llama2.pth"),
+tokenizer_path: Path = Path("checkpoints/lit-llama2/tokenizer.model"),
 ```
 Then run
 ```
