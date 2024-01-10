@@ -21,7 +21,7 @@ python3 finetune/ft_lora.py
 Your loss landscape should be something like this after fine-tuning.
 ![](./loss.png)
 Here we show the reasoning inference performed by LLaMA2 on one example along the training process:
-![](./example.png)
+![](./table_reason.png)
 Note that you could either fine-tune LLaMA or LLaMA2, we provide the fine-tuned Lora-weight and the original pre-trained Lora-weight for both of them in [Dropbox](https://www.dropbox.com/scl/fo/y9ydmvv0bj846klkfdin0/h?rlkey=epyzclz2kbcf2g4iuz0tojlm9&dl=0)
 * For **LLaMA**, change hyperparameters in finetune/ft_lora.py:
 ```
