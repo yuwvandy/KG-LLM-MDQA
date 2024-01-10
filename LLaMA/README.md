@@ -19,7 +19,7 @@ conda create env -f llama2.yml
 python3 finetune/ft_lora.py
 ```
 Your loss landscape should be something like this after fine-tuning.
-![](./img/.png)
+![](./loss.png)
 
 Note that you could either fine-tune LLaMA or LLaMA2, we provide the fine-tuned lora-weight and the original pre-trained lora-weight for both of them in [Dropbox]
 * For **LLaMA**, change hyperparameters in finetune/ft_lora.py:
